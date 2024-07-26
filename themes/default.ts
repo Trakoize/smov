@@ -93,7 +93,7 @@ const tokens = {
     c700: "#36171b",
     c800: "#201011",
     c900: "#130b0c"
-  }
+  },
 };
 
 export const defaultTheme = {
