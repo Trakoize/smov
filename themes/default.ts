@@ -1,5 +1,3 @@
-import { createTheme } from "../types";
-
 const tokens = {
   purple: {
     c50: "#feabac",
