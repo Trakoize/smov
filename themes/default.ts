@@ -50,9 +50,8 @@ const tokens = {
   }
 };
 
-export default createTheme({
-  name: "red",
-  extend: {
+export const defaultTheme = {
+ extend: {
     colors: {
       themePreview: {
         primary: tokens.blue.c200,
