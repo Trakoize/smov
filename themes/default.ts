@@ -1,4 +1,50 @@
 const tokens = {
+  black: "#000000",
+  white: "#FFFFFF",
+  semantic: {
+    red: {
+      c100: "#F46E6E",
+      c200: "#E44F4F",
+      c300: "#D74747",
+      c400: "#B43434",
+    },
+    green: {
+      c100: "#60D26A",
+      c200: "#40B44B",
+      c300: "#31A33C",
+      c400: "#237A2B",
+    },
+    silver: {
+      c100: "#DEDEDE",
+      c200: "#B6CAD7",
+      c300: "#8EA3B0",
+      c400: "#617A8A",
+    },
+    yellow: {
+      c100: "#FFF599",
+      c200: "#FCEC61",
+      c300: "#D8C947",
+      c400: "#AFA349",
+    },
+    rose: {
+      c100: "#DB3D61",
+      c200: "#8A293B",
+      c300: "#812435",
+      c400: "#701B2B",
+    },
+  },
+  blue: {
+    c50: "#ADADF5",
+    c100: "#7979CC",
+    c200: "#5D5DAE",
+    c300: "#3B3B8C",
+    c400: "#2A2A71",
+    c500: "#1F1F50",
+    c600: "#1B1B41",
+    c700: "#171736",
+    c800: "#101020",
+    c900: "#0B0B13",
+  },
   purple: {
     c50: "#feabac",
     c100: "#fe8385",
@@ -51,7 +97,7 @@ const tokens = {
 };
 
 export const defaultTheme = {
- extend: {
+  extend: {
     colors: {
       themePreview: {
         primary: tokens.blue.c200,
